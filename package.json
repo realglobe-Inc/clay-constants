@@ -1,6 +1,6 @@
 {
   "name": "clay-constants",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Constant variables for clay",
   "main": "lib",
   "browser": "shim/browser",
@@ -24,6 +24,8 @@
   "homepage": "https://github.com/realglobe-Inc/clay-constants#readme",
   "dependencies": {},
   "devDependencies": {
+    "ababel": "^1.1.10",
+    "ababel-es2015": "^1.0.8",
     "amocha": "^1.0.15",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
@@ -33,6 +35,7 @@
     "ape-updating": "^4.0.5",
     "co": "^4.6.0",
     "coz": "^6.0.20",
+    "filecopy": "^2.1.2",
     "injectmock": "^2.0.0",
     "sg-travis": "^1.1.33"
   },
