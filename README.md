@@ -112,6 +112,7 @@ Values
 
 | Key | Value |
 | --- | ---- |
+| LUMP_PREFIX | `[clay:lump]` |
 | DRIVER_PREFIX | `[clay:driver]` |
 | CRYPTO_PREFIX | `[clay:crypt]` |
 
