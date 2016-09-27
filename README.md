@@ -86,6 +86,55 @@ const { SheetPrefixes } = require('clay-constants')
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
+<!-- Section from "doc/guides/03.Values.md.hbs" Start -->
+
+<a name="section-doc-guides-03-values-md"></a>
+
+Values
+------
+
+##### CryptFormat
+
+| Key | Value |
+| --- | ---- |
+| DIGEST_ALGORITHM | `sha256` |
+| GENERATE_BITS | `512` |
+
+
+##### DriverSpec
+
+| Key | Value |
+| --- | ---- |
+| REQUIRED_METHODS | `create,read,update,delete,cursor` |
+
+
+##### LogPrefixes
+
+| Key | Value |
+| --- | ---- |
+| DRIVER_PREFIX | `[clay:driver]` |
+| CRYPTO_PREFIX | `[clay:crypt]` |
+
+
+##### SheetNames
+
+| Key | Value |
+| --- | ---- |
+| CONFIG_SHEET | `$$config` |
+
+
+##### SheetPrefixes
+
+| Key | Value |
+| --- | ---- |
+| PRIVATE_SHEET | `@@private` |
+| SHARED_SHEET | `@@shared` |
+
+
+
+
+<!-- Section from "doc/guides/03.Values.md.hbs" End -->
+
 
 <!-- Sections Start -->
 
