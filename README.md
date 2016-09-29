@@ -117,6 +117,17 @@ Values
 | CRYPTO_PREFIX | `[clay:crypt]` |
 
 
+##### RecordCols
+
+| Key | Value |
+| --- | ---- |
+| RECORD_KEY | `key` |
+| RECORD_VALUE | `value` |
+| RECORD_AT | `at` |
+| RECORD_SEAL | `seal` |
+| RECORD_BY | `by` |
+
+
 ##### SheetNames
 
 | Key | Value |
