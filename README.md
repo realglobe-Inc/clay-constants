@@ -93,6 +93,15 @@ const { SheetPrefixes } = require('clay-constants')
 Values
 ------
 
+##### ConfigKeys
+
+| Key | Value |
+| --- | ---- |
+| LUMP_ID | `clay:lump:id` |
+| LUMP_PRIVATE_KEY | `clay:lump:private_key` |
+| LUMP_PUBLIC_KEY | `clay:lump:public_key` |
+
+
 ##### CryptFormat
 
 | Key | Value |
