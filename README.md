@@ -142,7 +142,9 @@ Values
 | Key | Value |
 | --- | ---- |
 | ROOT_PATH | `/rest` |
+| SHEETS_PATH | `/rest/sheets` |
 | SHEET_PATH | `/rest/sheets/:sheet_name` |
+| RECORDS_PATH | `/rest/sheets/:sheet_name/records` |
 | RECORD_PATH | `/rest/sheets/:sheet_name/records/:record_key` |
 
 
