@@ -143,9 +143,9 @@ Values
 | --- | ---- |
 | ROOT_PATH | `/rest` |
 | SHEETS_PATH | `/rest/sheets` |
-| SHEET_PATH | `/rest/sheets/:sheet_name` |
-| RECORDS_PATH | `/rest/sheets/:sheet_name/records` |
-| RECORD_PATH | `/rest/sheets/:sheet_name/records/:record_key` |
+| ONE_SHEET_PATH | `/rest/sheets/:sheet_name` |
+| RECORDS_PATH | `undefined/records` |
+| ONE_RECORD_PATH | `undefined/records/:record_key` |
 
 
 ##### SheetNames
