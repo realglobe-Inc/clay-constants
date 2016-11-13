@@ -137,6 +137,15 @@ Values
 | RECORD_BY | `by` |
 
 
+##### RestPaths
+
+| Key | Value |
+| --- | ---- |
+| ROOT_PATH | `/rest` |
+| SHEET_PATH | `/rest/sheets/:sheet_name` |
+| RECORD_PATH | `/rest/sheets/:sheet_name/records/:record_key` |
+
+
 ##### SheetNames
 
 | Key | Value |
