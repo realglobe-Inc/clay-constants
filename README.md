@@ -100,6 +100,13 @@ Values
 | GENERATE_BITS | `512` |
 
 
+##### DriverSpec
+
+| Key | Value |
+| --- | ---- |
+| REQUIRED_METHODS | `one,list,create,update,destroy` |
+
+
 ##### LogPrefixes
 
 | Key | Value |
