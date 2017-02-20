@@ -1,8 +1,8 @@
 'use strict'
 
-const { SheetPrefixes } = require('clay-constants')
+const { LogPrefixes } = require('clay-constants')
 
 {
-  const { PRIVATE_SHEET, SHARED_SHEET } = SheetPrefixes
+  const { CRYPTO_PREFIX } = LogPrefixes
   /* ... */
 }
