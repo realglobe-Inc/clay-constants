@@ -74,13 +74,12 @@ Usage
 ```javascript
 'use strict'
 
-const { SheetPrefixes } = require('clay-constants')
+const { LogPrefixes } = require('clay-constants')
 
 {
-  const { PRIVATE_SHEET, SHARED_SHEET } = SheetPrefixes
+  const { CRYPTO_PREFIX } = LogPrefixes
   /* ... */
 }
-
 ```
 
 
@@ -93,28 +92,12 @@ const { SheetPrefixes } = require('clay-constants')
 Values
 ------
 
-##### ConfigKeys
-
-| Key | Value |
-| --- | ---- |
-| LUMP_ID | `clay:lump:id` |
-| LUMP_PRIVATE_KEY | `clay:lump:private_key` |
-| LUMP_PUBLIC_KEY | `clay:lump:public_key` |
-
-
 ##### CryptFormat
 
 | Key | Value |
 | --- | ---- |
 | DIGEST_ALGORITHM | `sha256` |
 | GENERATE_BITS | `512` |
-
-
-##### DriverSpec
-
-| Key | Value |
-| --- | ---- |
-| REQUIRED_METHODS | `create,read,update,delete,cursor` |
 
 
 ##### LogPrefixes
@@ -124,43 +107,6 @@ Values
 | LUMP_PREFIX | `[clay:lump]` |
 | DRIVER_PREFIX | `[clay:driver]` |
 | CRYPTO_PREFIX | `[clay:crypt]` |
-
-
-##### RecordCols
-
-| Key | Value |
-| --- | ---- |
-| RECORD_KEY | `key` |
-| RECORD_VALUE | `value` |
-| RECORD_AT | `at` |
-| RECORD_SEAL | `seal` |
-| RECORD_BY | `by` |
-
-
-##### RestPaths
-
-| Key | Value |
-| --- | ---- |
-| ROOT_PATH | `/rest` |
-| SHEETS_PATH | `/rest/sheets` |
-| ONE_SHEET_PATH | `/rest/sheets/:sheet_name` |
-| RECORDS_PATH | `/rest/sheets/:sheet_name/records` |
-| ONE_RECORD_PATH | `/rest/sheets/:sheet_name/records/:record_key` |
-
-
-##### SheetNames
-
-| Key | Value |
-| --- | ---- |
-| CONFIG_SHEET | `$$config` |
-
-
-##### SheetPrefixes
-
-| Key | Value |
-| --- | ---- |
-| PRIVATE_SHEET | `@@private` |
-| SHARED_SHEET | `@@shared` |
 
 
 
@@ -176,7 +122,7 @@ Values
 
 License
 -------
-This software is released under the [MIT License](https://github.com/realglobe-Inc/clay-constants/blob/master/LICENSE).
+This software is released under the [Apache-2.0 License](https://github.com/realglobe-Inc/clay-constants/blob/master/LICENSE).
 
 <!-- LICENSE End -->
 
@@ -188,7 +134,9 @@ Links
 ------
 
 + [ClayDB][clay_d_b_url]
++ [Realglobe, Inc.][realglobe,_inc__url]
 
 [clay_d_b_url]: https://github.com/realglobe-Inc/claydb
+[realglobe,_inc__url]: http://realglobe.jp
 
 <!-- Links End -->
