@@ -1,14 +1,14 @@
 /**
- * Test case for cryptFormat.
+ * Test case for driverSpec.
  * Runs with mocha.
  */
 'use strict'
 
-const CryptFormat = require('../lib/crypt_format.js')
+const DriverSpec = require('../lib/driver_spec.js')
 const assert = require('assert')
 const co = require('co')
 
-describe('crypt-format', function () {
+describe('driver-spec', function () {
   this.timeout(3000)
 
   before(() => co(function * () {
@@ -19,9 +19,9 @@ describe('crypt-format', function () {
 
   }))
 
-  it('Crypt format', () => co(function * () {
-    for (let name of Object.keys(CryptFormat)) {
-      assert.ok(CryptFormat[ name ])
+  it('Driver spec', () => co(function * () {
+    for (let name of Object.keys(DriverSpec)) {
+      assert.ok(DriverSpec[ name ])
     }
   }))
 })
