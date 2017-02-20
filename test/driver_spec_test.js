@@ -4,7 +4,7 @@
  */
 'use strict'
 
-const driverSpec = require('../lib/driver_spec.js')
+const DriverSpec = require('../lib/driver_spec.js')
 const assert = require('assert')
 const co = require('co')
 
@@ -20,7 +20,9 @@ describe('driver-spec', function () {
   }))
 
   it('Driver spec', () => co(function * () {
-
+    for (let name of Object.keys(DriverSpec)) {
+      assert.ok(DriverSpec[ name ])
+    }
   }))
 })
 
