@@ -6,7 +6,7 @@
   "browser": "shim/browser",
   "scripts": {
     "test": "node ./ci/test.js",
-    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
+    "prepare": "node ./ci/build.js && node ./ci/shim.js"
   },
   "repository": "realglobe-Inc/clay-constants",
   "keywords": [
