@@ -134,6 +134,7 @@ Values
 | BOOLEAN | `clay:boolean` |
 | DATE | `clay:date` |
 | OBJECT | `clay:object` |
+| NULL | `clay:null` |
 
 
 
