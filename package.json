@@ -1,6 +1,6 @@
 {
   "name": "clay-constants",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Constant variables for clay",
   "main": "lib",
   "browser": "shim/browser",
