@@ -104,7 +104,7 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| REQUIRED_METHODS | `one,list,create,update,destroy` |
+| REQUIRED_METHODS | `one,list,create,update,destroy,drop` |
 
 
 ##### IdSpec
