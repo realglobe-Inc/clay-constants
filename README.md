@@ -125,6 +125,18 @@ Values
 | ID_PREFIX | `[clay-id]` |
 
 
+##### SerialTypes
+
+| Key | Value |
+| --- | ---- |
+| NUMBER | `clay:number` |
+| STRING | `clay:string` |
+| BOOLEAN | `clay:boolean` |
+| DATE | `clay:date` |
+| OBJECT | `clay:object` |
+| NULL | `clay:null` |
+
+
 
 
 <!-- Section from "doc/guides/03.Values.md.hbs" End -->
