@@ -107,13 +107,22 @@ Values
 | REQUIRED_METHODS | `one,list,create,update,destroy` |
 
 
+##### IdSpec
+
+| Key | Value |
+| --- | ---- |
+| ID_PATTERN | `/^[a-z0-9\-]+$/` |
+| SCOPE_PATTERN | `/^[a-z0-9\-]+$/` |
+
+
 ##### LogPrefixes
 
 | Key | Value |
 | --- | ---- |
-| LUMP_PREFIX | `[clay:lump]` |
-| DRIVER_PREFIX | `[clay:driver]` |
-| CRYPTO_PREFIX | `[clay:crypt]` |
+| LUMP_PREFIX | `[clay-lump]` |
+| DRIVER_PREFIX | `[clay-driver]` |
+| CRYPTO_PREFIX | `[clay-crypt]` |
+| ID_PREFIX | `[clay-id]` |
 
 
 
