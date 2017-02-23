@@ -125,6 +125,17 @@ Values
 | ID_PREFIX | `[clay-id]` |
 
 
+##### ReservedResources
+
+| Key | Value |
+| --- | ---- |
+| SCHEMA | `ClaySchema` |
+| SCHEMA_PROPERTIES | `ClaySchemaProperty` |
+| SIGNATURE | `ClaySignature` |
+| TRACE | `ClayTrace` |
+| LOCAL | `ClayLocal` |
+
+
 ##### SerialTypes
 
 | Key | Value |
