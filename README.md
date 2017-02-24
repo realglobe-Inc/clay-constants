@@ -105,7 +105,7 @@ Values
 | Key | Value |
 | --- | ---- |
 | REQUIRED_METHODS | `one,list,create,update,destroy,drop,resources` |
-| RESOURCE_BINDABLE_METHODS | `one,list,create,update,destroy,drop,oneBulk,listBulk,createBulk,updateBulk,destroyBulk` |
+| RESOURCE_BINDABLE_METHODS | `one,list,create,update,destroy,drop,oneBulk,listBulk,createBulk,updateBulk,destroyBulk,cursor` |
 
 
 ##### IdSpec
