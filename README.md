@@ -137,6 +137,14 @@ Values
 | LOCAL | `ClayLocal` |
 
 
+##### ResourceSpec
+
+| Key | Value |
+| --- | ---- |
+| NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_]*$/` |
+| VERSION_PATTERN | `/^[0-9a-z\.\-]*$|^latest$/` |
+
+
 ##### SerialTypes
 
 | Key | Value |
