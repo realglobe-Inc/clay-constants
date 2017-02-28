@@ -142,7 +142,7 @@ Values
 | Key | Value |
 | --- | ---- |
 | NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_]*$/` |
-| VERSION_PATTERN | `/^[0-9a-z\.\-]*$|^latest$/` |
+| VERSION_PATTERN | `/latest|^[0-9]+$/` |
 
 
 ##### ResourceVersioning
@@ -150,7 +150,6 @@ Values
 | Key | Value |
 | --- | ---- |
 | LATEST_VERSION | `latest` |
-| VERSION_PATTERN | `/latest|^[0-9]+$/` |
 
 
 ##### SerialTypes
