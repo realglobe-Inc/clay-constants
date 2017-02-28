@@ -145,6 +145,13 @@ Values
 | VERSION_PATTERN | `/^[0-9a-z\.\-]*$|^latest$/` |
 
 
+##### ResourceVersioning
+
+| Key | Value |
+| --- | ---- |
+| LATEST_VERSION | `latest` |
+
+
 ##### SerialTypes
 
 | Key | Value |
