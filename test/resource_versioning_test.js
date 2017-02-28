@@ -5,7 +5,7 @@
 'use strict'
 
 const ResourceVersioning = require('../lib/resource_versioning.js')
-const assert = require('assert')
+const { ok } = require('assert')
 const co = require('co')
 
 describe('resource-versioning', function () {
@@ -21,8 +21,9 @@ describe('resource-versioning', function () {
 
   it('Resource versioning', () => co(function * () {
     for (let name of Object.keys(ResourceVersioning)) {
-      assert.ok(ResourceVersioning[ name ])
+      ok(ResourceVersioning[ name ])
     }
+
   }))
 })
 

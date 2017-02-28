@@ -150,6 +150,7 @@ Values
 | Key | Value |
 | --- | ---- |
 | LATEST_VERSION | `latest` |
+| VERSION_PATTERN | `/latest|^[0-9]+$/` |
 
 
 ##### SerialTypes
