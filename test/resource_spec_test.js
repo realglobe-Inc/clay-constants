@@ -28,7 +28,6 @@ describe('resource-spec', function () {
 
     ok(DOMAIN_PATTERN.test('latest.com'))
     ok(!DOMAIN_PATTERN.test(''))
-    ok(!DOMAIN_PATTERN.test(null))
   }))
 })
 
