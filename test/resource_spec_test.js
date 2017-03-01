@@ -20,19 +20,15 @@ describe('resource-spec', function () {
   }))
 
   it('Resource spec', () => co(function * () {
-    const { NAME_PATTERN, VERSION_PATTERN } = ResourceSpec
+    const { NAME_PATTERN, DOMAIN_PATTERN } = ResourceSpec
     ok(NAME_PATTERN.test('WonderfulWorld'))
     ok(NAME_PATTERN.test('wonderful-world'))
     ok(NAME_PATTERN.test('wonderful_world'))
     ok(!NAME_PATTERN.test('wonderful world'))
 
-    ok(VERSION_PATTERN.test('latest'))
-    ok(VERSION_PATTERN.test('1'))
-    ok(VERSION_PATTERN.test('2'))
-    ok(!VERSION_PATTERN.test('2.1'))
-    ok(!VERSION_PATTERN.test('hoge'))
-    ok(!VERSION_PATTERN.test(''))
-    ok(!VERSION_PATTERN.test(null))
+    ok(DOMAIN_PATTERN.test('latest.com'))
+    ok(!DOMAIN_PATTERN.test(''))
+    ok(!DOMAIN_PATTERN.test(null))
   }))
 })
 
