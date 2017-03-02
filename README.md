@@ -126,6 +126,13 @@ Values
 | ID_PREFIX | `[clay-id]` |
 
 
+##### LumpSpec
+
+| Key | Value |
+| --- | ---- |
+| NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.\/]*$/` |
+
+
 ##### ReservedResources
 
 | Key | Value |
