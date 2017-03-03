@@ -108,6 +108,13 @@ Values
 | RESOURCE_BINDABLE_METHODS | `one,list,create,update,destroy,drop,oneBulk,listBulk,createBulk,updateBulk,destroyBulk,cursor` |
 
 
+##### EntitySpec
+
+| Key | Value |
+| --- | ---- |
+| RESERVED_ATTRIBUTES | `id,$$at,$$seal` |
+
+
 ##### IdSpec
 
 | Key | Value |
