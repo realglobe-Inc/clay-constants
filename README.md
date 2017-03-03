@@ -131,6 +131,8 @@ Values
 | DRIVER_PREFIX | `[clay-driver]` |
 | CRYPTO_PREFIX | `[clay-crypt]` |
 | ID_PREFIX | `[clay-id]` |
+| ENTITY_PREFIX | `[clay-entity]` |
+| RESOURCE_PREFIX | `[clay-resource]` |
 
 
 ##### LumpSpec
