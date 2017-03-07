@@ -98,6 +98,7 @@ Values
 | --- | ---- |
 | DIGEST_ALGORITHM | `sha256` |
 | GENERATE_BITS | `512` |
+| SIGN_FORMAT | `hex` |
 
 
 ##### DriverSpec
