@@ -152,6 +152,8 @@ Values
 | SIGNATURE | `ClaySignature` |
 | TRACE | `ClayTrace` |
 | LOCAL | `ClayLocal` |
+| INDICES | `ClayIndices` |
+| RELATION | `ClayRelation` |
 
 
 ##### ResourceSpec
