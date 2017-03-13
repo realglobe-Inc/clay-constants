@@ -113,7 +113,7 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| RESERVED_ATTRIBUTES | `id,$$at,$$seal,$$by,$$schema,$$is` |
+| RESERVED_ATTRIBUTES | `id,$$at,$$seal,$$by,$$schema,$$as` |
 
 
 ##### IdSpec
