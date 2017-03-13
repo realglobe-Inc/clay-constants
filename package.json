@@ -1,6 +1,6 @@
 {
   "name": "clay-constants",
-  "version": "2.4.3",
+  "version": "2.5.0",
   "description": "Constant variables for clay",
   "main": "lib",
   "browser": "shim/browser",
@@ -34,7 +34,7 @@
     "ape-updating": "^4.1.0",
     "co": "^4.6.0",
     "coz": "^6.0.20",
-    "filecopy": "^3.0.0",
+    "filecopy": "^3.0.1",
     "injectmock": "^2.0.0",
     "request": "^2.80.0",
     "sugos-travis": "^2.0.7"
