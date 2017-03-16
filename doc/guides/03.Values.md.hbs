@@ -2,7 +2,14 @@ Values
 ------
 
 {{#each vars.values}}
-##### {{@key}}
++ [{{@key}}](#{{@key}})
+{{/each}}
+
+
+{{#each vars.values}}
+<a name="{{@key}}" ></a>
+
+### {{@key}}
 
 | Key | Value |
 | --- | ---- |

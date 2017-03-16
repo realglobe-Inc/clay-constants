@@ -92,7 +92,20 @@ const { LogPrefixes } = require('clay-constants')
 Values
 ------
 
-##### CryptFormat
++ [CryptFormat](#CryptFormat)
++ [DriverSpec](#DriverSpec)
++ [EntitySpec](#EntitySpec)
++ [IdSpec](#IdSpec)
++ [LogPrefixes](#LogPrefixes)
++ [LumpSpec](#LumpSpec)
++ [ReservedResources](#ReservedResources)
++ [ResourceSpec](#ResourceSpec)
++ [SerialTypes](#SerialTypes)
+
+
+<a name="CryptFormat" ></a>
+
+### CryptFormat
 
 | Key | Value |
 | --- | ---- |
@@ -101,7 +114,9 @@ Values
 | SIGN_FORMAT | `hex` |
 
 
-##### DriverSpec
+<a name="DriverSpec" ></a>
+
+### DriverSpec
 
 | Key | Value |
 | --- | ---- |
@@ -109,14 +124,18 @@ Values
 | RESOURCE_BINDABLE_METHODS | `one,list,create,update,destroy,drop,oneBulk,listBulk,createBulk,updateBulk,destroyBulk,cursor` |
 
 
-##### EntitySpec
+<a name="EntitySpec" ></a>
+
+### EntitySpec
 
 | Key | Value |
 | --- | ---- |
 | RESERVED_ATTRIBUTES | `id,$$at,$$seal,$$by,$$schema,$$as` |
 
 
-##### IdSpec
+<a name="IdSpec" ></a>
+
+### IdSpec
 
 | Key | Value |
 | --- | ---- |
@@ -124,7 +143,9 @@ Values
 | SCOPE_PATTERN | `/^[a-z0-9\-]+$/` |
 
 
-##### LogPrefixes
+<a name="LogPrefixes" ></a>
+
+### LogPrefixes
 
 | Key | Value |
 | --- | ---- |
@@ -136,14 +157,18 @@ Values
 | RESOURCE_PREFIX | `[clay-resource]` |
 
 
-##### LumpSpec
+<a name="LumpSpec" ></a>
+
+### LumpSpec
 
 | Key | Value |
 | --- | ---- |
 | NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.\/]*$/` |
 
 
-##### ReservedResources
+<a name="ReservedResources" ></a>
+
+### ReservedResources
 
 | Key | Value |
 | --- | ---- |
@@ -156,7 +181,9 @@ Values
 | RELATION | `ClayRelation` |
 
 
-##### ResourceSpec
+<a name="ResourceSpec" ></a>
+
+### ResourceSpec
 
 | Key | Value |
 | --- | ---- |
@@ -164,7 +191,9 @@ Values
 | DOMAIN_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.]*$/` |
 
 
-##### SerialTypes
+<a name="SerialTypes" ></a>
+
+### SerialTypes
 
 | Key | Value |
 | --- | ---- |
