@@ -2,6 +2,12 @@ Values
 ------
 
 {{#each vars.values}}
++ [{{@key}}](#{{@key}})
+{{/each}}
+
+
+{{#each vars.values}}
+<a name="{{@key}}" />
 ##### {{@key}}
 
 | Key | Value |
