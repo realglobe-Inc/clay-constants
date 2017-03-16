@@ -203,6 +203,8 @@ Values
 | DATE | `clay:date` |
 | OBJECT | `clay:object` |
 | NULL | `clay:null` |
+| REF | `clay:ref` |
+| ENTITY | `clay:entity` |
 
 
 

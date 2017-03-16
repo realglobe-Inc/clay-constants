@@ -14,7 +14,7 @@ module.exports = readmeMdBud({
   badges: {
     // TODO OSS
     // travis: true,
-       travisCom: true,
+    travisCom: true,
     travisComToken: 'aeFzCpBZebyaRijpCFmm',
     npm: true,
     standard: true
