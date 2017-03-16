@@ -102,7 +102,9 @@ Values
 + [ResourceSpec](#ResourceSpec)
 + [SerialTypes](#SerialTypes)
 
-<a name="CryptFormat" />
+
+<a name="CryptFormat" ></a>
+
 ##### CryptFormat
 
 | Key | Value |
@@ -112,7 +114,8 @@ Values
 | SIGN_FORMAT | `hex` |
 
 
-<a name="DriverSpec" />
+<a name="DriverSpec" ></a>
+
 ##### DriverSpec
 
 | Key | Value |
@@ -121,7 +124,8 @@ Values
 | RESOURCE_BINDABLE_METHODS | `one,list,create,update,destroy,drop,oneBulk,listBulk,createBulk,updateBulk,destroyBulk,cursor` |
 
 
-<a name="EntitySpec" />
+<a name="EntitySpec" ></a>
+
 ##### EntitySpec
 
 | Key | Value |
@@ -129,7 +133,8 @@ Values
 | RESERVED_ATTRIBUTES | `id,$$at,$$seal,$$by,$$schema,$$as` |
 
 
-<a name="IdSpec" />
+<a name="IdSpec" ></a>
+
 ##### IdSpec
 
 | Key | Value |
@@ -138,7 +143,8 @@ Values
 | SCOPE_PATTERN | `/^[a-z0-9\-]+$/` |
 
 
-<a name="LogPrefixes" />
+<a name="LogPrefixes" ></a>
+
 ##### LogPrefixes
 
 | Key | Value |
@@ -151,7 +157,8 @@ Values
 | RESOURCE_PREFIX | `[clay-resource]` |
 
 
-<a name="LumpSpec" />
+<a name="LumpSpec" ></a>
+
 ##### LumpSpec
 
 | Key | Value |
@@ -159,7 +166,8 @@ Values
 | NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.\/]*$/` |
 
 
-<a name="ReservedResources" />
+<a name="ReservedResources" ></a>
+
 ##### ReservedResources
 
 | Key | Value |
@@ -173,7 +181,8 @@ Values
 | RELATION | `ClayRelation` |
 
 
-<a name="ResourceSpec" />
+<a name="ResourceSpec" ></a>
+
 ##### ResourceSpec
 
 | Key | Value |
@@ -182,7 +191,8 @@ Values
 | DOMAIN_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.]*$/` |
 
 
-<a name="SerialTypes" />
+<a name="SerialTypes" ></a>
+
 ##### SerialTypes
 
 | Key | Value |
