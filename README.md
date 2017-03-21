@@ -172,8 +172,7 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| SCHEMA | `ClaySchema` |
-| SCHEMA_PROPERTIES | `ClaySchemaProperty` |
+| POLICY | `ClayPolicy` |
 | SIGNATURE | `ClaySignature` |
 | TRACE | `ClayTrace` |
 | LOCAL | `ClayLocal` |
