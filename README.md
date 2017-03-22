@@ -99,6 +99,7 @@ Values
 + [LogPrefixes](#LogPrefixes)
 + [LumpSpec](#LumpSpec)
 + [ReservedResources](#ReservedResources)
++ [ResourceEvents](#ResourceEvents)
 + [ResourceSpec](#ResourceSpec)
 + [SerialTypes](#SerialTypes)
 
@@ -179,6 +180,28 @@ Values
 | LOCAL | `CLYLocal` |
 | INDICES | `CLYIndices` |
 | RELATION | `CLYRelation` |
+
+
+<a name="ResourceEvents" ></a>
+
+### ResourceEvents
+
+| Key | Value |
+| --- | ---- |
+| REF_ADD | `cly:ref:add` |
+| REF_REMOVE | `cly:ref:remove` |
+| ANNOTATION_TOGGLE | `cly:annotate:toggle` |
+| POLICY_SET | `cly:policy:set` |
+| POLICY_REMOVE | `cly:policy:remove` |
+| RESOURCE_SUB | `cly:resource:sub` |
+| ENTITY_CREATE | `cly:entity:create` |
+| ENTITY_CREATE_BULK | `cly:entity:create:bulk` |
+| ENTITY_UPDATE | `cly:entity:update` |
+| ENTITY_UPDATE_BULK | `cly:entity:update:bulk` |
+| ENTITY_DESTROY | `cly:entity:destroy` |
+| ENTITY_DESTROY_BULK | `cly:entity:destroy:bulk` |
+| ENTITY_DROP | `cly:entity:drop` |
+| ENTITY_DROP_BULK | `cly:entity:drop:bulk` |
 
 
 <a name="ResourceSpec" ></a>
