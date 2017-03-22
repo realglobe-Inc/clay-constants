@@ -5,7 +5,7 @@
 'use strict'
 
 const ReservedResources = require('../lib/reserved_resources.js')
-const assert = require('assert')
+const { ok } = require('assert')
 const co = require('co')
 
 describe('reserved-resources', function () {
@@ -21,8 +21,8 @@ describe('reserved-resources', function () {
 
   it('Reserved resources', () => co(function * () {
     for (let name of Object.keys(ReservedResources)) {
-      assert.ok(ReservedResources[ name ])
-      assert.ok(/^Clay/.test(ReservedResources[ name ]))
+      ok(ReservedResources[ name ])
+      ok(/^CLY/.test(ReservedResources[ name ]))
     }
   }))
 })
