@@ -155,6 +155,7 @@ Values
 | ID_PREFIX | `[clay-id]` |
 | ENTITY_PREFIX | `[clay-entity]` |
 | RESOURCE_PREFIX | `[clay-resource]` |
+| RESOURCE_POLICY | `[clay-policy]` |
 
 
 <a name="LumpSpec" ></a>
@@ -172,12 +173,12 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| POLICY | `ClayPolicy` |
-| SIGNATURE | `ClaySignature` |
-| TRACE | `ClayTrace` |
-| LOCAL | `ClayLocal` |
-| INDICES | `ClayIndices` |
-| RELATION | `ClayRelation` |
+| POLICY | `CLYPolicy` |
+| SIGNATURE | `CLYSignature` |
+| TRACE | `CLYTrace` |
+| LOCAL | `CLYLocal` |
+| INDICES | `CLYIndices` |
+| RELATION | `CLYRelation` |
 
 
 <a name="ResourceSpec" ></a>
@@ -196,14 +197,14 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| NUMBER | `clay:number` |
-| STRING | `clay:string` |
-| BOOLEAN | `clay:boolean` |
-| DATE | `clay:date` |
-| OBJECT | `clay:object` |
-| NULL | `clay:null` |
-| REF | `clay:ref` |
-| ENTITY | `clay:entity` |
+| NUMBER | `cly:number` |
+| STRING | `cly:string` |
+| BOOLEAN | `cly:boolean` |
+| DATE | `cly:date` |
+| OBJECT | `cly:object` |
+| NULL | `cly:null` |
+| REF | `cly:ref` |
+| ENTITY | `cly:entity` |
 
 
 
