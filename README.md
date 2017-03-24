@@ -93,6 +93,7 @@ Values
 ------
 
 + [CryptFormat](#CryptFormat)
++ [DataTypes](#DataTypes)
 + [DriverSpec](#DriverSpec)
 + [EntitySpec](#EntitySpec)
 + [IdSpec](#IdSpec)
@@ -101,7 +102,6 @@ Values
 + [ReservedResources](#ReservedResources)
 + [ResourceEvents](#ResourceEvents)
 + [ResourceSpec](#ResourceSpec)
-+ [SerialTypes](#SerialTypes)
 
 
 <a name="CryptFormat" ></a>
@@ -113,6 +113,22 @@ Values
 | DIGEST_ALGORITHM | `sha256` |
 | GENERATE_BITS | `512` |
 | SIGN_FORMAT | `hex` |
+
+
+<a name="DataTypes" ></a>
+
+### DataTypes
+
+| Key | Value |
+| --- | ---- |
+| NUMBER | `cly:number` |
+| STRING | `cly:string` |
+| BOOLEAN | `cly:boolean` |
+| DATE | `cly:date` |
+| OBJECT | `cly:object` |
+| NULL | `cly:null` |
+| REF | `cly:ref` |
+| ENTITY | `cly:entity` |
 
 
 <a name="DriverSpec" ></a>
@@ -156,7 +172,7 @@ Values
 | ID_PREFIX | `[clay-id]` |
 | ENTITY_PREFIX | `[clay-entity]` |
 | RESOURCE_PREFIX | `[clay-resource]` |
-| RESOURCE_POLICY | `[clay-policy]` |
+| POLICY_PREFIX | `[clay-policy]` |
 
 
 <a name="LumpSpec" ></a>
@@ -212,22 +228,6 @@ Values
 | --- | ---- |
 | NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_]*$/` |
 | DOMAIN_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.]*$/` |
-
-
-<a name="SerialTypes" ></a>
-
-### SerialTypes
-
-| Key | Value |
-| --- | ---- |
-| NUMBER | `cly:number` |
-| STRING | `cly:string` |
-| BOOLEAN | `cly:boolean` |
-| DATE | `cly:date` |
-| OBJECT | `cly:object` |
-| NULL | `cly:null` |
-| REF | `cly:ref` |
-| ENTITY | `cly:entity` |
 
 
 

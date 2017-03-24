@@ -5,7 +5,7 @@
 'use strict'
 
 const LogPrefixes = require('../lib/log_prefixes.js')
-const assert = require('assert')
+const { ok } = require('assert')
 const co = require('co')
 
 describe('log-prefix', function () {
@@ -21,7 +21,8 @@ describe('log-prefix', function () {
 
   it('Log prefix', () => co(function * () {
     for (let name of Object.keys(LogPrefixes)) {
-      assert.ok(LogPrefixes[ name ])
+      ok(LogPrefixes[ name ])
+      ok(/_PREFIX$/.test(name))
     }
   }))
 })
