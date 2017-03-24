@@ -100,6 +100,7 @@ Values
 + [LogPrefixes](#LogPrefixes)
 + [LumpSpec](#LumpSpec)
 + [ReservedResources](#ReservedResources)
++ [ResourceEvents](#ResourceEvents)
 + [ResourceSpec](#ResourceSpec)
 
 
@@ -109,15 +110,9 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| CryptFormat | `[object Object]` |
-| DataTypes | `[object Object]` |
-| DriverSpec | `[object Object]` |
-| EntitySpec | `[object Object]` |
-| IdSpec | `[object Object]` |
-| LogPrefixes | `[object Object]` |
-| LumpSpec | `[object Object]` |
-| ReservedResources | `[object Object]` |
-| ResourceSpec | `[object Object]` |
+| DIGEST_ALGORITHM | `sha256` |
+| GENERATE_BITS | `512` |
+| SIGN_FORMAT | `hex` |
 
 
 <a name="DataTypes" ></a>
@@ -126,15 +121,14 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| CryptFormat | `[object Object]` |
-| DataTypes | `[object Object]` |
-| DriverSpec | `[object Object]` |
-| EntitySpec | `[object Object]` |
-| IdSpec | `[object Object]` |
-| LogPrefixes | `[object Object]` |
-| LumpSpec | `[object Object]` |
-| ReservedResources | `[object Object]` |
-| ResourceSpec | `[object Object]` |
+| NUMBER | `cly:number` |
+| STRING | `cly:string` |
+| BOOLEAN | `cly:boolean` |
+| DATE | `cly:date` |
+| OBJECT | `cly:object` |
+| NULL | `cly:null` |
+| REF | `cly:ref` |
+| ENTITY | `cly:entity` |
 
 
 <a name="DriverSpec" ></a>
@@ -143,15 +137,8 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| CryptFormat | `[object Object]` |
-| DataTypes | `[object Object]` |
-| DriverSpec | `[object Object]` |
-| EntitySpec | `[object Object]` |
-| IdSpec | `[object Object]` |
-| LogPrefixes | `[object Object]` |
-| LumpSpec | `[object Object]` |
-| ReservedResources | `[object Object]` |
-| ResourceSpec | `[object Object]` |
+| REQUIRED_METHODS | `one,list,create,update,destroy,drop,resources` |
+| RESOURCE_BINDABLE_METHODS | `one,list,create,update,destroy,drop,oneBulk,listBulk,createBulk,updateBulk,destroyBulk,cursor` |
 
 
 <a name="EntitySpec" ></a>
@@ -160,15 +147,7 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| CryptFormat | `[object Object]` |
-| DataTypes | `[object Object]` |
-| DriverSpec | `[object Object]` |
-| EntitySpec | `[object Object]` |
-| IdSpec | `[object Object]` |
-| LogPrefixes | `[object Object]` |
-| LumpSpec | `[object Object]` |
-| ReservedResources | `[object Object]` |
-| ResourceSpec | `[object Object]` |
+| RESERVED_ATTRIBUTES | `id,$$at,$$seal,$$by,$$policy,$$as` |
 
 
 <a name="IdSpec" ></a>
@@ -177,15 +156,8 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| CryptFormat | `[object Object]` |
-| DataTypes | `[object Object]` |
-| DriverSpec | `[object Object]` |
-| EntitySpec | `[object Object]` |
-| IdSpec | `[object Object]` |
-| LogPrefixes | `[object Object]` |
-| LumpSpec | `[object Object]` |
-| ReservedResources | `[object Object]` |
-| ResourceSpec | `[object Object]` |
+| ID_PATTERN | `/^[a-z0-9\-]+$/` |
+| SCOPE_PATTERN | `/^[a-z0-9\-]+$/` |
 
 
 <a name="LogPrefixes" ></a>
@@ -194,15 +166,13 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| CryptFormat | `[object Object]` |
-| DataTypes | `[object Object]` |
-| DriverSpec | `[object Object]` |
-| EntitySpec | `[object Object]` |
-| IdSpec | `[object Object]` |
-| LogPrefixes | `[object Object]` |
-| LumpSpec | `[object Object]` |
-| ReservedResources | `[object Object]` |
-| ResourceSpec | `[object Object]` |
+| LUMP_PREFIX | `[clay-lump]` |
+| DRIVER_PREFIX | `[clay-driver]` |
+| CRYPTO_PREFIX | `[clay-crypt]` |
+| ID_PREFIX | `[clay-id]` |
+| ENTITY_PREFIX | `[clay-entity]` |
+| RESOURCE_PREFIX | `[clay-resource]` |
+| POLICY_PREFIX | `[clay-policy]` |
 
 
 <a name="LumpSpec" ></a>
@@ -211,15 +181,7 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| CryptFormat | `[object Object]` |
-| DataTypes | `[object Object]` |
-| DriverSpec | `[object Object]` |
-| EntitySpec | `[object Object]` |
-| IdSpec | `[object Object]` |
-| LogPrefixes | `[object Object]` |
-| LumpSpec | `[object Object]` |
-| ReservedResources | `[object Object]` |
-| ResourceSpec | `[object Object]` |
+| NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.\/]*$/` |
 
 
 <a name="ReservedResources" ></a>
@@ -228,15 +190,34 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| CryptFormat | `[object Object]` |
-| DataTypes | `[object Object]` |
-| DriverSpec | `[object Object]` |
-| EntitySpec | `[object Object]` |
-| IdSpec | `[object Object]` |
-| LogPrefixes | `[object Object]` |
-| LumpSpec | `[object Object]` |
-| ReservedResources | `[object Object]` |
-| ResourceSpec | `[object Object]` |
+| POLICY | `CLYPolicy` |
+| SIGNATURE | `CLYSignature` |
+| TRACE | `CLYTrace` |
+| LOCAL | `CLYLocal` |
+| INDICES | `CLYIndices` |
+| RELATION | `CLYRelation` |
+
+
+<a name="ResourceEvents" ></a>
+
+### ResourceEvents
+
+| Key | Value |
+| --- | ---- |
+| REF_ADD | `cly:ref:add` |
+| REF_REMOVE | `cly:ref:remove` |
+| ANNOTATION_TOGGLE | `cly:annotate:toggle` |
+| POLICY_SET | `cly:policy:set` |
+| POLICY_REMOVE | `cly:policy:remove` |
+| RESOURCE_SUB | `cly:resource:sub` |
+| ENTITY_CREATE | `cly:entity:create` |
+| ENTITY_CREATE_BULK | `cly:entity:create:bulk` |
+| ENTITY_UPDATE | `cly:entity:update` |
+| ENTITY_UPDATE_BULK | `cly:entity:update:bulk` |
+| ENTITY_DESTROY | `cly:entity:destroy` |
+| ENTITY_DESTROY_BULK | `cly:entity:destroy:bulk` |
+| ENTITY_DROP | `cly:entity:drop` |
+| ENTITY_DROP_BULK | `cly:entity:drop:bulk` |
 
 
 <a name="ResourceSpec" ></a>
@@ -245,15 +226,8 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| CryptFormat | `[object Object]` |
-| DataTypes | `[object Object]` |
-| DriverSpec | `[object Object]` |
-| EntitySpec | `[object Object]` |
-| IdSpec | `[object Object]` |
-| LogPrefixes | `[object Object]` |
-| LumpSpec | `[object Object]` |
-| ReservedResources | `[object Object]` |
-| ResourceSpec | `[object Object]` |
+| NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_]*$/` |
+| DOMAIN_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.]*$/` |
 
 
 
