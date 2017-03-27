@@ -25,9 +25,9 @@ describe('resource-spec', function () {
     ok(NAME_PATTERN.test('wonderful-world'))
     ok(NAME_PATTERN.test('wonderful_world'))
     ok(!NAME_PATTERN.test('wonderful world'))
+    ok(NAME_PATTERN.test('ClySchema.WonderfulWorld'))
 
     ok(DOMAIN_PATTERN.test('latest.com'))
-    ok(!DOMAIN_PATTERN.test(''))
   }))
 })
 
