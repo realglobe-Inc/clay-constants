@@ -129,6 +129,7 @@ Values
 | NULL | `cly:null` |
 | REF | `cly:ref` |
 | ENTITY | `cly:entity` |
+| ID | `cly:id` |
 
 
 <a name="DriverSpec" ></a>
