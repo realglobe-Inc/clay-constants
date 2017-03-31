@@ -2,13 +2,9 @@ language: node_js
 node_js:
 - '6'
 before_install:
-# TODO OSS
-# - npm i npm-cli-login -g
-# - npm-cli-login -u "${NPM_USER}" -p "${NPM_PASSWORD}" -e "${NPM_EMAIL}"
-# - npm who
-- echo "registry = https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-virtual" > $HOME/.npmrc
-- curl -u${NPM_USER}:${NPM_PASSWORD} "https://realglobe.artifactoryonline.com/realglobe/api/npm/auth" >> $HOME/.npmrc
-- cat $HOME/.npmrc
+ - npm i npm-cli-login -g
+ - npm-cli-login -u "${NPM_USER}" -p "${NPM_PASSWORD}" -e "${NPM_EMAIL}"
+ - npm who
 install:
 - npm install
 script:
@@ -18,4 +14,4 @@ script:
 after_success:
 - ./ci/travis/publish.js
 env:
-  secure: "qpjAyaaZMr3WaiqG8MPALkaPCWEtyyxhW/UyOYd3+Zho6JXsmbD73o1VXs6liu53f9dLFJCMYc9Gdjr3xU0PdGRqDvIkIZR8JRGWZltSiSwLnSuGQtufolYHeU1fS0vzF0VcaXk50j0l8ij+f/Bqfvwc3G8rtlJqO0nfL/iPy2WKYQbMY/3gue3TYL3NKY5Dv4acZ4erLpSux4/f2XNu4OtvMz1EMrHFIChHK0o1LFDg7oEj1pnIN/uyLeaHBSb/KCZzj8yjuDajkOZcy/8IUrCpvPXwBqNXAr32AOnQVHM/iCr/KA0pQI4lYDKxu7J77gDxGWWBCC+YNfMzBGQ297AfNINVNyaIv2b0+9IN0GDdWf/YSeL0VoIldKgKkM5CcuR2FTrmCzprCyFV94SnirNhSuHeUjmKn/POvwBN80mf+SQwD+EDuY4yEursASVroutTxnJZG6my0oF7D5F+DDTfSmBoZuPdHuCZgS4xfo7pcCICJVFXQ/E+ld11HDIgZLgOxV2b2gYMDNo0mvGUDlintI+WHQt2Y6dBUv9d+4qG57VhjFlUG6dIOCkRu/h2K4FYHbGC2H1FmeHHOjfaFdNHnzUt+cU0sl+PypSjlRcu6c3nqVgFbhdK1lYRv7AOC7wn6Pa8P6tFevnY9WR5rJAfabobWDQXFBy5hJsZt6M="
+  secure: "DTmkDoQ8meIIeFWFeG2A5ccJj84Yo2Z3/A/4KyvQEShM8Pz9J6izfjKkntvWh28PU1XjagfocP8n3DFwn2TAACE2L6gQQJLIs5uLHbG4KsKwK3xIwJdXXaUnGulf3BUocAtwYppdT25AFLPhZfkjKT4j65E326g39M8bywVViDAZhvgsmU2MqsuPgPQp7hyI/4IGhHshm+bvYWPLZZF4D5OV/bX82RSPRXB6HLhBkOTsqmmsSbK5RldbpCn7yLaH+mG1cvLkqRgca/S9S/UP4OGcR3q7RFXbbvbI8HRcKTvXOOSx1UfstgDhFYFrd1uf6Wjcejf2QVraAcEyl/mx5JXlWFBcvqLH4xjMNj7w00E1CPXBaQw0HhLA33chtxJGeKzcTE+GPV33eBBixHhOtL7mkkeWbr1l0fjIL9eEck8WtfNocE9VUyYzlZ176o7K59+PCyS13qF+yuuDvegrXOCiYftd/qb83XazLkHMRaB1kw9bu69if85zNa9SPRX08YFGuc5iTonWzNNIojMHc7Mvxm7gVpKIpJvR9vbVXMmINmGUyGWZNrC1GL7OSaLlgKe9XHHsGXzgz1mj5udYZM/4Kfb/3b1tJmWFoblDq5ahXY4e52WevZRAAFNDzj/gczej3mbieRBdeuqkgxzdpWtqVas7X7mb95tAZhQtRqI="
