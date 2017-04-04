@@ -28,6 +28,7 @@ module.exports = readmeMdBud({
   }
 })
 
+
 if (!module.parent) {
   require('coz').render(__filename)
 }
