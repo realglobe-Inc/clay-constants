@@ -150,6 +150,7 @@ Values
 | Key | Value |
 | --- | ---- |
 | RESERVED_ATTRIBUTES | `id,$$at,$$seal,$$by,$$policy,$$as` |
+| RESERVED_METHODS | `toString,toJSON,get,set,sync,update,save,destroy` |
 
 
 <a name="IdSpec" ></a>
