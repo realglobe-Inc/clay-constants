@@ -149,7 +149,7 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| RESERVED_ATTRIBUTES | `id,$$at,$$seal,$$by,$$policy,$$as` |
+| RESERVED_ATTRIBUTES | `id,$$at,$$seal,$$by,$$policy,$$as,$$num` |
 | RESERVED_METHODS | `toString,toJSON,get,set,sync,update,save,destroy` |
 
 
