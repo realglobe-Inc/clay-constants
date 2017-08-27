@@ -5,7 +5,7 @@
 'use strict'
 
 const ResourceSpec = require('../lib/resource_spec.js')
-const { ok } = require('assert')
+const {ok} = require('assert')
 const co = require('co')
 
 describe('resource-spec', function () {
@@ -20,14 +20,18 @@ describe('resource-spec', function () {
   }))
 
   it('Resource spec', () => co(function * () {
-    const { NAME_PATTERN, DOMAIN_PATTERN } = ResourceSpec
+    const {NAME_PATTERN, DOMAIN_PATTERN} = ResourceSpec
     ok(NAME_PATTERN.test('WonderfulWorld'))
     ok(NAME_PATTERN.test('wonderful-world'))
     ok(NAME_PATTERN.test('wonderful_world'))
-    ok(!NAME_PATTERN.test('wonderful world'))
+    ok(NAME_PATTERN.test('wonderful/world'))
+    ok(NAME_PATTERN.test('wonderful#world'))
     ok(NAME_PATTERN.test('ClySchema.WonderfulWorld'))
+    ok(!NAME_PATTERN.test('wonderful world'))
 
     ok(DOMAIN_PATTERN.test('latest.com'))
+    ok(DOMAIN_PATTERN.test('latest.com/subpath'))
+    ok(DOMAIN_PATTERN.test('latest.com/subpath#Hoge'))
   }))
 })
 

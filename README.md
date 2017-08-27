@@ -229,8 +229,8 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.]*$/` |
-| DOMAIN_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\-_\.]*$/` |
+| NAME_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\/\-_\.]*$/` |
+| DOMAIN_PATTERN | `/^[A-Za-z][A-Za-za-z0-9\/\-_\.]*$/` |
 
 
 
