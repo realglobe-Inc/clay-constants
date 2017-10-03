@@ -1,6 +1,6 @@
 {
   "name": "clay-constants",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Constant variables for clay",
   "main": "lib",
   "browser": "shim/browser",
@@ -26,17 +26,17 @@
   "devDependencies": {
     "ababel": "^2.0.2",
     "ababel-es2015": "^2.0.2",
-    "amocha": "^2.0.0",
+    "amocha": "^4.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^6.0.0",
+    "ape-tmpl": "^6.0.2",
     "ape-updating": "^4.1.1",
     "co": "^4.6.0",
     "coz": "^6.0.20",
-    "filecopy": "^3.0.1",
+    "filecopy": "^4.0.0",
     "injectmock": "^2.0.0",
-    "request": "^2.81.0",
+    "request": "^2.83.0",
     "sugos-travis": "^2.0.7"
   },
   "engines": {

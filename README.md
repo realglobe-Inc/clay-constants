@@ -213,6 +213,7 @@ Values
 | POLICY_SET | `cly:policy:set` |
 | POLICY_REMOVE | `cly:policy:remove` |
 | RESOURCE_SUB | `cly:resource:sub` |
+| INVALIDATE | `cly:invalidate` |
 | ENTITY_CREATE | `cly:entity:create` |
 | ENTITY_CREATE_BULK | `cly:entity:create:bulk` |
 | ENTITY_UPDATE | `cly:entity:update` |
