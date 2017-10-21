@@ -95,7 +95,7 @@ Values
 
 + [CryptFormat](#CryptFormat)
 + [DataTypes](#DataTypes)
-+ [DateFormat](#DateFormat)
++ [DateFormats](#DateFormats)
 + [DriverSpec](#DriverSpec)
 + [EntitySpec](#EntitySpec)
 + [IdSpec](#IdSpec)
@@ -134,9 +134,9 @@ Values
 | ID | `cly:id` |
 
 
-<a name="DateFormat" ></a>
+<a name="DateFormats" ></a>
 
-### DateFormat
+### DateFormats
 
 | Key | Value |
 | --- | ---- |
