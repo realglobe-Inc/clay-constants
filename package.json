@@ -34,6 +34,7 @@
     "ape-updating": "^4.1.1",
     "co": "^4.6.0",
     "coz": "^6.0.20",
+    "eslint": "^4.9.0",
     "filecopy": "^4.0.0",
     "injectmock": "^2.0.0",
     "request": "^2.83.0",
