@@ -140,7 +140,7 @@ Values
 
 | Key | Value |
 | --- | ---- |
-| DUMP_FILENAME_FORMAT | `YYYY-MM-DD-HH-mm-ss` |
+| DUMP_FILENAME_FORMAT | `` |
 
 
 <a name="DriverSpec" ></a>
