@@ -95,6 +95,7 @@ Values
 
 + [CryptFormat](#CryptFormat)
 + [DataTypes](#DataTypes)
++ [DateFormat](#DateFormat)
 + [DriverSpec](#DriverSpec)
 + [EntitySpec](#EntitySpec)
 + [IdSpec](#IdSpec)
@@ -131,6 +132,15 @@ Values
 | REF | `cly:ref` |
 | ENTITY | `cly:entity` |
 | ID | `cly:id` |
+
+
+<a name="DateFormat" ></a>
+
+### DateFormat
+
+| Key | Value |
+| --- | ---- |
+| DUMP_FILENAME_FORMAT | `YYYY-MM-DD` |
 
 
 <a name="DriverSpec" ></a>
@@ -214,6 +224,7 @@ Values
 | POLICY_REMOVE | `cly:policy:remove` |
 | RESOURCE_SUB | `cly:resource:sub` |
 | INVALIDATE | `cly:invalidate` |
+| INVALIDATE_BULK | `cly:invalidate:bulk` |
 | ENTITY_CREATE | `cly:entity:create` |
 | ENTITY_CREATE_BULK | `cly:entity:create:bulk` |
 | ENTITY_UPDATE | `cly:entity:update` |
